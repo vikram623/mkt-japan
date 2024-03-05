@@ -1,0 +1,746 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+@media only screen and (max-width: 600px) {
+    .link{
+      background-color: lightblue;
+    }
+  }
+
+
+
+.header{
+    background-color: white;
+    width: 100%;
+    height: 113px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+.left-hand{
+    width: 13%;
+    height: 71px;
+}
+.right-hand{
+    width: 87%;
+    height: 63px;
+    display: flex;
+}
+.about-mkt{
+    width: 69%;
+    height:63px; 
+    padding-top: 19px;
+}
+.account{
+    width: 18%;
+    height:63px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drop-lang{
+    width: 13%;
+    height:63px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-link{
+    text-decoration: none;
+    color: black;
+}
+.main-link:hover{
+    color: #edad01;
+}
+.account-button{
+    border: none;
+    border-radius: 11px;
+    width: 69%;
+    height: 45px;
+
+}
+.bi{
+    color: #0a900d;
+    font-size: 31px;
+}
+.sub-account{
+    vertical-align: super;
+    color: #0a900d;
+    font-weight: bold;
+}
+.sub-drop{
+    border: none;
+    color: green;
+}
+.opt-g{
+    color: black;
+}
+.menu-items{
+    background-color: rgb(51, 153, 51);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.drop-items1{
+    border: none;
+    width: 14%;
+    height: 38px;
+    border-radius: 9px;
+    padding-left: 16px;
+}
+.search-button{
+    background-color: #edad01;
+    border: none;
+    width: 41px;
+    height: 39px;
+    border-radius: 13px;
+}
+.vicky{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome-mkt{
+    background-color: white;
+    width: 100%;
+    height: 502px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subwelcome{
+    background-color: white;
+    width: 70%;
+    height: 345px;
+}
+.cont-box{
+    padding-left: 152px;
+    font-size: 52px;
+}
+.cont-box1{
+    padding-left: 207px;
+    color: gray;
+}
+.text-link{
+    width: 100%;
+    height: 139px;
+    font-size: 18px;
+}
+#tar{
+text-decoration: none;
+color: red;
+}
+.MAS{
+    margin-left: 355px;
+    border: none;
+    background-color: #edad01;
+    width: 29%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 32px;
+}
+.sub-MAS{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.MKT-stock{
+    background-image: url("img/stock-bg.jpg");
+    width: 100%;
+    height: 824px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-stock{
+    width: 88%;
+    height: 671px;
+}
+.sub-stock1{
+    width: 25%;
+    height: 152px;
+    margin-left: 454px;
+}
+.sub-stock2{
+    padding-left: 36px;
+    font-size: 32px;
+    color: rgb(85, 85, 85);
+}
+.sub-stock3{
+    width: 100%;
+    height: 519px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.car-logos{
+    width: 48%;
+    height: 519px;
+}
+.car-img{
+    width: 48%;
+    height: 519px;
+}
+.brands-logo{
+    background-color: #878787;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 13px;
+    margin-bottom: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    box-shadow: 2px 2px 2px 2px #878787;
+}
+.brand-models{
+    background-color: #878787;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 13px;
+    margin-bottom: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    box-shadow: 2px 2px 2px 2px  #878787;
+}
+.brands-logo1{
+    background-color: #ffffff;
+    width: 100%;
+    height: 468px;
+    border-radius: 13px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+.brands-models1{
+    background-color:#ffffff;
+    width: 100%;
+    height: 468px;
+    border-radius: 13px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+.img-row1{
+    width: 100%;
+    height: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.car-fig{
+    text-align: center;
+    line-height: 0px;
+}
+.maker11{
+    text-decoration: none;
+    color: black;
+}
+.maker11:hover{
+    color: #edad01;
+}
+.H-deals{
+    margin-top: 72px;
+    margin-left: 600px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.sell-cars{
+    margin-left: 548px;
+    font-size: 32px;
+    color: rgb(85, 85, 85);
+}
+.car-details{
+    background-color: white;
+    width: 100%;
+    height: 990px;
+    margin-top: -16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-cars{
+
+    width: 84%;
+    height: 371px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-cas{
+    width: 84%;
+    height: 371px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+.img-text{
+    background-color:white;
+    width: 95%;
+    height: 371px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+.tem1{
+    width: 100%;
+    height: 183px;
+    border-radius: 9px 9px 0px 0px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.ss-year{
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.icon-value{
+    width: 93%;
+    height: 62px;
+    margin-left: 10px;
+}
+.speed-meter{
+    width: 10%;
+}
+.tools{
+    margin-right: 52px;
+}
+.tools2{
+    margin-right: 81px;
+}
+.tool-size{
+    margin-top: 14px;
+}
+.bottom-text{
+    display: flex;
+    justify-content: space-between;
+}
+.prict{
+    padding-left: 5px;
+}
+.ast{
+    padding-right: 4px;
+}
+.link-onimg{
+    color: black;
+    text-decoration: none;
+}
+.button-onimg{
+    position: absolute;
+    top: 69px;
+    left: 54px;
+    width: 54%;
+    height: 32px;
+    border-radius: 9px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+}
+.tem1:hover{
+    background: rgb(218 173 52 / 60%);
+    display: block;
+    content: '';
+    z-index: 1;
+    
+}
+.see-more{
+    margin-top: 82px;
+    width: 11%;
+    height: 46px;
+    border: none;
+    background-color: #edad01;
+    border-radius: 8px;
+}
+.sub-see{
+    color: white;
+    text-decoration: none;
+}
+.our-services{
+    background-image: url("img/stock-bg.jpg");
+    width: 100%;
+    height: 905px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.sub-ourser{
+    width: 84%;
+    height: 740px;
+}
+.our1{
+    font-weight: bold;
+    font-size: 45px;
+    padding-left: 447px;
+}
+.shipping{
+    width: 100%;
+    height: 637px;
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+.shipping-inter{
+    background-color: white;
+    width: 352px;
+    height: 637px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+.img-int{
+    width: 100%;
+    height: 264px;
+}
+.city{
+    font-weight: bold;
+    font-size: 19px;
+    padding-left: 18px;
+    padding-top: 34px;
+}
+.shipping-fea{
+    padding-left: 18px;
+    font-size: 14px;
+}
+.shipping-detail{
+    text-decoration: none;
+    color: black;
+    padding-left: 18px;
+}
+.h-buy{
+    background-color: black;
+    width: 100%;
+    height: 452px;
+    background-image: url("img/p1.jpg");
+    background-size: 100% 491px;
+    background-repeat: no-repeat;
+
+    top: 0px;
+    z-index: -1;
+}
+.text-onback{
+    height: 450px;
+    width: 100%;
+}
+.top-num{
+    width: 88%;
+    height: 325px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+    align-items: center;
+    position: relative;
+}
+.ssst{
+    width: 100%;
+    height: 29px;
+    text-align: center;
+    margin-top: 86px;
+}
+.sub-topnum{
+    background-color: #737375;
+    width: 17%;
+    height: 215px;
+   border-radius: 17px;
+   opacity: 0.5;
+}
+.sub-topnum:hover{
+    opacity: 0.9;
+}
+.sub-topnum1{
+    background-color: #edad01;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4%;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 42px;
+    font-size: 25px;
+}
+.img-withcap1{
+    height: 215px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-withcap{
+    text-decoration: none;
+    color: white;
+    
+}
+.customer{
+    width: 100%;
+    height: 599px;
+    background-color: #f3f3f3;
+}
+.customer-review{
+    width: 100%;
+    height: 39px;
+    height: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.clients{
+    width: 85%;
+    height: 279px;
+    margin-top: 29px;
+    margin-left: 101px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+.sub-clients{
+    width: 49%;
+    height: 279px;
+    border-radius: 12px;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px whites
+}
+.sub-clients1{
+    width: 39%;
+    height: 279px;
+    border-radius: 13px;
+}
+.sub-clients2{
+    background-color:white;
+    width: 61%;
+    height: 279px;
+    border-radius: 0px 13px 13px 0px;
+}
+.clients-imgg{
+    width: 100%;
+    height: 279px;
+}
+.sub-clients3{
+    padding-left: 23px;
+    padding-top: 27px;
+}
+.dated{
+
+    display: flex;
+    align-items: baseline;
+    width: 31%;
+    margin-left: 25px;
+
+}
+.dated1{
+    padding-right: 8px;
+}
+.GMJ{
+    padding-left: 21px;
+    font-size: 15px;
+    padding-top: 18px;
+}
+.touch{
+background-image: url("img/touch-bg.jpg");
+    width: 100%;
+    height: 600px;
+    display:flex ;
+    padding-left: 86px;
+    box-sizing: border-box;
+}
+.touch-get{
+    width: 45%;
+    height: 496px;
+}
+.touch-get1{
+    width: 55%;
+    height: 600px;
+}
+.git-top{
+    color: #434343;
+    padding-top: 76px;
+    font-size: 54px;
+    padding-left: 131px;
+}
+.git-top1{
+    font-size: 22px;
+    padding-left: 105px;
+    color: gray;
+}
+.office-num{   
+     padding-left: 188px;
+    font-size: 22px;
+    padding-top: 24px;
+}
+.office-num1{
+    font-size: 22px;
+    padding-left: 135px;
+    line-height: 25px;
+}
+.whatsapp1{
+    color: #0a900d;
+    text-decoration: none;
+}
+.whatsapp1:hover{
+    text-decoration-line: underline;
+}
+.suam{
+    margin-top: 50px;
+    margin-left: 146px;
+    width: 51%;
+    border: none;
+    height: 44px;
+    border-radius: 11px;
+    background-color: #edad01;
+    color: white;
+    font-weight: 800;
+}
+.footer{
+    background-color: rebeccapurple;
+    background-image: url("img/foot-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 435px;
+    width: 100%;
+    height: 435px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 108px;
+}
+.footer1{
+    width: 25%;
+    height: 338px;
+    margin-top: 97px;
+}
+.footer2{
+    width: 25%;
+    height: 350px;
+    margin-top: 68px;
+}
+.footer-logo{
+    width: 100%;
+    height: 96px;
+}
+.bii{
+    color: white;
+    font-size: 23px;
+    padding-right: 12px;
+}
+.url{
+    width: 100%;
+    height: 81px;
+    display: flex;
+}
+.url2{
+width: 11%;
+height: 81px;
+}
+.url3{
+    width: 82%;
+    height: 81px;
+    }
+    .toy{
+        color: white;
+    }
+    .toy2{
+        color: white;
+    }
+ .cnt{
+    width: 100%;
+    height: 57px;
+ }
+ .hrtc{
+
+    color: white;
+ }
+ .social{
+    list-style-type: none;
+    display: contents;
+ }
+ .bi1{
+    color: white;
+    font-size: 25px;
+ }
+ .tyt{
+    color: white;
+    text-decoration: none;
+ }
+ .tyt:hover{
+    text-decoration: underline;
+ }
+ .tyt1{
+    color: white;
+ }
+ .social4{
+    list-style-type: none;
+    display: contents;
+ }
+ .wst{
+    text-decoration: none;
+    color: white;
+ }
+ .undr1{
+    
+    width: 32%;
+    background-color: white;    
+    height: 2px;
+    margin-top: -14px;
+
+ }
+ .undr2{
+    
+    width: 28%;
+    background-color: white;
+    height: 2px;
+    margin-top: -14px;
+
+ }
+ .undr3{
+    
+    width: 30%;
+    background-color: white;
+    height: 2px;
+    margin-top: -14px;
+
+ }
+ .undr4{
+    
+    width: 23%;
+    background-color: white;
+    height: 2px;
+    
+
+ }
+ .lastmkt{
+    width: 100%;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .lt1{
+    background-color:#2c2c2c;
+    width: 50%;
+    height: 41px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .lt2{
+    background-color: #2c2c2c;
+    width: 50%;
+    height: 41px;
+    color: white;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+ }
+ .k-com{
+    text-decoration: none;
+ }
